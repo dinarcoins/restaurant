@@ -1,0 +1,268 @@
+@media screen and (max-width:1366px) {
+     /* banner */
+     .slider-wrapper {
+        height: 700px;
+     }
+
+     .slider-content {
+         top: 30%;
+     } 
+
+     .skider1,
+     .skider2,
+     .skider3 {
+         height: 700px;
+     }
+
+    .owl-carousel {
+        height: 700px;
+    }
+
+    .owl-dots {
+        left: 40%;
+    }
+    /* our story */
+    .our__story {
+        height: 700px;
+    }
+    /* tab slider */
+    .tabs__slider {
+        height: 700px;
+    }
+    /* services */
+     .services {
+         height: 800px;
+     }
+
+     /* about__us */
+     .about__us {
+         height: 600px;
+     }
+     /* contact__us */
+     .contact__us  {
+         height: 750px;
+     }
+
+     .contact__form {
+         width: 40%;
+         height: 55%;
+     }
+     /* footer */
+     .footer__main {
+         width: 82%;
+     }
+}
+
+@media screen and  (max-width:1024px) {
+    /* header */
+    .owl-dots {
+        left: 36%;
+    }
+    /* our__story */
+    .our__right {
+        width: 45%;
+        padding-right: 0;
+    }
+
+    .our__story {
+        height: 600px;
+    }
+
+    /* tab-slider */
+    .tabs__slider {
+        height: 600px;
+    }
+    /* services */
+    .services__content {
+        width: 90%;
+        height: 70%;
+    }
+
+    .services__left__items h4 {
+        font-size:18px;
+    }
+    /* about__us */
+    .about__us {
+        height: 550px;
+    }
+
+    .about__us__left {
+        width: 49%;
+    }
+
+    .about__us__video {
+        height: 55%;
+    }
+    /* contact */
+    .contact__maps {
+        right: 0;
+        width: 70%;
+    }
+
+    .contact__form {
+        width: 50%;
+    }
+    /* footer */
+    .footer__main {
+        width: 92%;
+    }
+
+    .footer__left ul:nth-child(1) {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .offcanvas-header {
+        display: block;
+    } 
+
+    .active__img {
+        display: inline-flex;
+        position: absolute;
+        left: 20px;
+        top: 20px
+    }
+
+    .button-close {
+       /* z-index:10; */
+       position: absolute;
+       padding-top: 10px;
+       top: 25px;
+       right: 10px;
+       border: 1px solid  #c3a281;
+       display:flex;
+       color: #c3a281;
+    }
+
+    .btn-close {
+       position: fixed;
+       right: 20px;
+       top: 50px;
+       margin-left:20px;
+       font-size: 20px;
+       outline: none;
+       border: none;
+       color: red;
+    }
+
+    .btn-close:hover {
+        color:#fff;
+    }
+
+    .navbar-collapse {
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 100%;
+        width: 90%;
+        height: 1607px;
+        padding-top: 15px;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: #000;
+        transition: visibility .2s, transform .2s ease;
+        transition: 1s;
+        display:flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap:wrap;
+    }
+
+    .navbar-collapse.show {
+        visibility: visible;
+        transform: translateX(-100%);
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap:wrap;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+     .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .header-menu {
+        flex-direction: column;
+    }
+}
+
+ @media only screen and (max-width: 800px) {
+     .slider-content {
+         top: 55%;
+     } 
+ }
+
+@media screen and (max-width: 768px) {
+    .slider-content {
+        top: 30%;
+    } 
+
+    .owl-dots {
+        left: 31%;
+    }
+
+    .slide__title h1 {
+        font-size: 50px;
+    }
+    /* oủ__stỏy */
+    .our__story {
+        height: 510px;
+    }
+
+    .our__right {
+        width:47%;
+    }
+
+    .our__right h2::after {
+        width: 50%;
+    }
+    /* slider__tabs */
+    .tabs__slider {
+        height: 500px;
+    }
+
+    .slider__item p {
+        font-size:20px;
+    }
+    /* services */
+    .services {
+        height: 700px;
+    }
+
+    .services__content {
+        width: 95%;
+    }
+
+    .services__left__items p {
+        display:none;
+    }
+    /* about-us */
+    .about__us {
+        height: 500px;
+        padding-left: 50px;
+    }
+
+    .about__us__title h2::after {
+        width: 100px;
+    }
+    /* contact */
+    .contact__form {
+        width: 60%;
+    }
+    /* footer */
+    .footer__main {
+        width: 90%;
+    }
+
+    .footer__right {
+        width: 20%;
+    }
+}

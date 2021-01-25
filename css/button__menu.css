@@ -1,0 +1,59 @@
+   .header__button {
+     z-index: 1;
+     position: relative;
+     display: none;
+     box-sizing: border-box;
+  }
+
+  .header__button button {
+      border: 1px solid #c3a281;
+      background:transparent;
+      padding: 10px 15px;
+  }
+
+  .header__button i {
+      color: #c3a281;
+      font-size: 16px;
+  }
+
+  .header__button:hover i {
+      color: aliceblue;
+  }
+
+  @media screen and (max-width:767px) {
+     .header-menu {
+         display: block;
+         flex-wrap: wrap;
+         position: relative;
+         z-index: 10000;
+         height: 500px;
+     }
+
+         .menu-left ul,
+        .menu-right ul {
+             display: none;
+        }
+
+     .slider-inner {
+         position: relative;
+         z-index: 0;
+         display: block;
+     }
+
+    .header__button {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 38px;
+    }
+
+  }
+
+  @media screen and (max-width: 575px) {
+    .header__button {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 38px;
+    }
+  }
